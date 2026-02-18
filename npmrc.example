@@ -1,0 +1,11 @@
+# NPM Configuration for BCMonster
+# Copy this to ~/.npmrc to fix SSH git URL issues globally
+
+# Prefer fetching from registry instead of cache
+prefer-online=true
+
+# Registry
+registry=https://registry.npmjs.org/
+
+# Don't use package-lock.json from cache
+package-lock=true
