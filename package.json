@@ -1,0 +1,44 @@
+{
+  "name": "stratum-pool",
+  "version": "1.0.0-bcmonster",
+  "description": "High performance Stratum poolserver in Node.js - BCMonster fork with BIP310 version rolling",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "sha256",
+    "scrypt",
+    "asicboost",
+    "version-rolling",
+    "bcmonster"
+  ],
+  "homepage": "https://github.com/bcmonster/BCMonster-Performance-Stratum",
+  "bugs": {
+    "url": "https://github.com/bcmonster/BCMonster-Performance-Stratum/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Matthew Little",
+  "contributors": [
+    "vekexasia",
+    "TheSerapher",
+    "Laviathon (BCMonster maintainer)"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcmonster/BCMonster-Performance-Stratum.git"
+  },
+  "dependencies": {
+    "async": "3.2.6",
+    "base58-native": "0.1.4",
+    "bignum": "0.13.1",
+    "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
